@@ -10,4 +10,21 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
+- Step 1:- first run below commands to check if docker is installed correctly on your system
+'''
+docker -v
+
+docker-compose -v
+'''
+
+- Step 2:- now go in project root directory, and run below command to load Anythings backend and frontend.
+'''
+docker-compose up
+'''
+
+- If every thing goes write you will be able to see it [here](http://localhost:3000/api/ping)
+
+- Now to check if frontend and backend is connected create new user [here](http://localhost:3001/register)
+
+
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
