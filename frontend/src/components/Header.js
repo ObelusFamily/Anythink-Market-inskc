@@ -66,7 +66,7 @@ const Header = props => {
           <LoggedOutView currentUser={props.currentUser} />
         )}
       </nav>
-    );
+    )
   }
 
 
